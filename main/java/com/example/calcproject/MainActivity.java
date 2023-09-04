@@ -12,17 +12,12 @@ public class MainActivity extends AppCompatActivity {
     private TextView text;
     private int num1;
     private int num2;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    /*public void clearFirst(View view){
-        text1.getText().clear();
-    }
-    public void clearSecond(View view){
-        text2.getText().clear();
-    }*/
     public void refreshAll(){
         text1 = findViewById(R.id.ekaluku);
         text2 = findViewById(R.id.tokaluku);
